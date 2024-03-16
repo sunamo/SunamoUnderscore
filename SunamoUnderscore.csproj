@@ -7,7 +7,6 @@
     <Description>Static sharing data objects - for use only in my apps</Description>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="SunamoEnums" Version="24.2.6.2" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
