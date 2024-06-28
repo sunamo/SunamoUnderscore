@@ -1,3 +1,5 @@
+
+namespace SunamoUnderscore;
 public class AllChars
 {
     public static List<char> vsZnakyWithoutSpecial;

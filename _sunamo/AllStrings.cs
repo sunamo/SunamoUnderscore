@@ -1,3 +1,5 @@
+
+namespace SunamoUnderscore;
 public class AllStrings
 {
     public const string dot = ".";

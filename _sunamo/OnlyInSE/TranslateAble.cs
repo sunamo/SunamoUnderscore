@@ -1,3 +1,5 @@
+
+namespace SunamoUnderscore;
 public class TranslateAble
 {
     
