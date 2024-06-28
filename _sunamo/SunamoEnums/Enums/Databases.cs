@@ -1,7 +1,7 @@
 namespace SunamoUnderscore;
 
 
-public enum Databases
+internal enum Databases
 {
     WeBelieve,
     SunamoCz,
