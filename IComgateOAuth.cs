@@ -1,4 +1,4 @@
-﻿namespace SunamoUnderscore;
+namespace SunamoUnderscore;
 
 /// <summary>
 ///     mus� b�t v SE

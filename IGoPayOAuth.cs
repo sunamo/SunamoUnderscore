@@ -1,4 +1,4 @@
-﻿namespace SunamoUnderscore;
+namespace SunamoUnderscore;
 
 public interface IGoPayOAuth : IOAuth
 {

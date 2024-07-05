@@ -1,4 +1,4 @@
-namespace SunamoUnderscore;
+namespace SunamoUnderscore._public.SunamoEnums.Enums;
 
 
 public enum Databases
