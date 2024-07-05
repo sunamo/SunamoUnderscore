@@ -15,3 +15,5 @@ global using SunamoUnderscore._sunamo.SunamoXlfKeys;
 global using SunamoUnderscore._public.SunamoEnums.Enums;
 global using SunamoUnderscore._sunamo.SunamoExceptions.OnlyInSE;
 global using SunamoUnderscore._sunamo.SunamoExceptions._AddedToAllCsproj;
+global using System.Diagnostics;
+global using System.Net;

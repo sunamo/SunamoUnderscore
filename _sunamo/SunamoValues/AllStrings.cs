@@ -1,4 +1,3 @@
-
 namespace SunamoUnderscore._sunamo.SunamoValues;
 internal class AllStrings
 {
