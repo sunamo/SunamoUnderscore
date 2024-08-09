@@ -12,7 +12,8 @@ public interface IDatabasesConnections
 #else
 void
 #endif
-    Reload();
+        Reload();
+
     void SetConnToMSDatabaseLayer(Databases dNew, RadioButtonsSql rbs);
     void SetConnToMSDatabaseLayerSql5(Databases dNew);
     void TemporalySwitchConnToMSDatabaseLayer(Databases dNew, RadioButtonsSql rbs);

@@ -6,7 +6,7 @@ public class _
     public static IComgateOAuth CmConsts = null;
     public static Action<string> phWinCode = null;
 
-    public static Dictionary<string, List<string>> allColumns = new Dictionary<string, List<string>>();
+    public static Dictionary<string, List<string>> allColumns = new();
 
     #region CryptHelper.ApplyCryptData(CryptHelper.RijndaelBytes.Instance, CryptDataWrapper.rijn);
 
@@ -64,7 +64,6 @@ public class _
 //    {
 //    }
 //}
-
 
 //    public class _
 //    {

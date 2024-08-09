@@ -1,6 +1,5 @@
 namespace SunamoUnderscore._public.SunamoEnums.Enums;
 
-
 public enum Databases
 {
     WeBelieve,
