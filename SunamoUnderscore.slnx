@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="SunamoUnderscore.Tests\\SunamoUnderscore.Tests.csproj" />
+  <Project Path="RunnerUnderscore\\RunnerUnderscore.csproj" />
+  <Project Path="SunamoUnderscore\SunamoUnderscore.csproj" />
+</Solution>
