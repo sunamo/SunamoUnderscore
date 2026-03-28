@@ -1,18 +1,29 @@
 namespace SunamoUnderscore;
 
-/// < summary>
-///     Musí to tu být i když to je v Sql kvůli interfacům
-///     Musí být object, IDatabasesConnections je static v _
-///     Tím že je static property ji nemůžu dát typové argumenty
-///     mohl bych RadioButtonsSql přendat do desktop
-///     tím bych si ale porušil název na který se odkazuje protože _ může být jen v SunamoException (je bez _)
-///     Ale UseWpf nechci dávat do všech.
-///     Přikloním se k variantě, že přepínat to budu ale jinak než že budu mít RB v _.
+/// <summary>
+/// Represents the state of SQL database radio button selections.
+/// Used by IDatabasesConnections to determine which database to connect to.
+/// Must be a class (not enum) because IDatabasesConnections is static in _ and cannot have type arguments.
 /// </summary>
 public class RadioButtonsSql
 {
-    public bool cmd = false;
-    public bool sunamoCz;
-    public bool sunamoNet;
-    public bool weBelieve;
+    /// <summary>
+    /// Indicates whether the command-line database mode is selected.
+    /// </summary>
+    public bool IsCmd { get; set; } = false;
+
+    /// <summary>
+    /// Indicates whether the SunamoCz database is selected.
+    /// </summary>
+    public bool IsSunamoCz { get; set; }
+
+    /// <summary>
+    /// Indicates whether the SunamoNet database is selected.
+    /// </summary>
+    public bool IsSunamoNet { get; set; }
+
+    /// <summary>
+    /// Indicates whether the WeBelieve database is selected.
+    /// </summary>
+    public bool IsWeBelieve { get; set; }
 }

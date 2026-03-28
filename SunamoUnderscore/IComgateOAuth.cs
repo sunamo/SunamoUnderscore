@@ -2,14 +2,13 @@
 namespace SunamoUnderscore;
 
 /// <summary>
-///     mus� b�t v SE
-///     mohl bych to d�t do Scz.import kter� referencuje SunamoComgate
-///     ale t�m bych nemohl u��vat GoPay stejnou cestou
+/// Comgate-specific OAuth configuration.
+/// Must be in SunamoUnderscore so both SunamoComgate and GoPay can reference it through a shared path.
 /// </summary>
 public interface IComgateOAuth : IOAuth
 {
     /// <summary>
-    ///     cm specific
+    /// Gets the Comgate merchant email address.
     /// </summary>
     string Email { get; }
 }

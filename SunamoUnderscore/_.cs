@@ -1,70 +1,37 @@
 namespace SunamoUnderscore;
 
+/// <summary>
+/// Global static sharing data objects for cross-module communication.
+/// </summary>
 public class _
 {
-    public static IDatabasesConnections DatabasesConnections = null;
-    public static IComgateOAuth CmConsts = null;
-    public static Action<string> phWinCode = null;
+    /// <summary>
+    /// Database connections provider instance.
+    /// </summary>
+    public static IDatabasesConnections? DatabasesConnections = null;
 
-    public static Dictionary<string, List<string>> allColumns = new();
+    /// <summary>
+    /// Comgate OAuth configuration constants.
+    /// </summary>
+    public static IComgateOAuth? ComgateConsts = null;
 
-    #region CryptHelper.ApplyCryptData(CryptHelper.RijndaelBytes.Instance, CryptDataWrapper.rijn);
+    /// <summary>
+    /// Action delegate to open a file in code editor.
+    /// </summary>
+    public static Action<string>? OpenInCodeEditor = null;
 
-    public static Func<List<byte>, List<byte>> RijndaelBytesDecrypt;
-    public static Func<List<byte>, List<byte>> RijndaelBytesEncrypt;
+    /// <summary>
+    /// Dictionary mapping table names to their column lists.
+    /// </summary>
+    public static Dictionary<string, List<string>> AllColumns = new();
 
-    #endregion
+    /// <summary>
+    /// Rijndael decryption function accepting and returning byte lists.
+    /// </summary>
+    public static Func<List<byte>, List<byte>>? RijndaelBytesDecrypt;
+
+    /// <summary>
+    /// Rijndael encryption function accepting and returning byte lists.
+    /// </summary>
+    public static Func<List<byte>, List<byte>>? RijndaelBytesEncrypt;
 }
-
-//namespace SunamoUnderscore
-//{
-//    public class _
-//    {
-//    }
-//}
-
-//namespace sunamo.Generators
-//{
-//    public class _
-//    {
-//    }
-//}
-
-//namespace sunamo.Essential
-//{
-//    public class _
-//    {
-//    }
-//}
-
-//namespace research
-//{
-//    public class _
-//    {
-//    }
-//}
-
-//namespace SunamoSqlServer.Enums
-//{
-//    public class _
-//    {
-//    }
-//}
-
-//namespace sunamo.Helpers.FileSystem
-//{
-//    public class _
-//    {
-//    }
-//}
-
-//namespace SunamoShared.Helpers
-//{
-//    public class _
-//    {
-//    }
-//}
-
-//    public class _
-//    {
-//    }
