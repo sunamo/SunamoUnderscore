@@ -1,8 +1,13 @@
 // variables names: ok
 namespace SunamoUnderscore;
 
-// GoPay-specific OAuth configuration.
+/// <summary>
+/// GoPay-specific OAuth configuration.
+/// </summary>
 public interface IGoPayOAuth : IOAuth
 {
+    /// <summary>
+    /// Gets the GoPay account identifier.
+    /// </summary>
     long GoID { get; }
 }
