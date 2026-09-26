@@ -43,5 +43,7 @@ public enum Databases
     /// <summary>
     /// LearnTransactSql database.
     /// </summary>
-    LearnTransactSql
+    LearnTransactSql,
+
+    SunamoCzAzure
 }

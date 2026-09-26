@@ -29,18 +29,14 @@ public interface IDatabasesConnections
     /// <returns>Notification message string.</returns>
     string NotifyAboutSunamoCzLocalInDebug(Databases database);
 
-#if ASYNC
     /// <summary>
     /// Reloads the database connections asynchronously.
     /// </summary>
     /// <returns>A task representing the asynchronous reload operation.</returns>
     Task
-#else
     /// <summary>
     /// Reloads the database connections.
     /// </summary>
-    void
-#endif
         Reload();
 
     /// <summary>
