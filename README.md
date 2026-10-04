@@ -1,5 +1,10 @@
 # SunamoUnderscore
 
+## Short description
+
+Statické sdílené datové objekty pro komunikaci mezi moduly, určené jen pro mé aplikace. Součást sbírky pinp s testy a Runnerem.
+
+
 Static sharing data objects - for use only in my apps
 
 ## Overview
