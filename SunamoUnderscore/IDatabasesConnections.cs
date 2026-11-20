@@ -34,9 +34,6 @@ public interface IDatabasesConnections
     /// </summary>
     /// <returns>A task representing the asynchronous reload operation.</returns>
     Task
-    /// <summary>
-    /// Reloads the database connections.
-    /// </summary>
         Reload();
 
     /// <summary>
