@@ -1,4 +1,3 @@
-// variables names: ok
 namespace SunamoUnderscore;
 
 // GoPay-specific OAuth configuration.
